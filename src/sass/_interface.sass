@@ -1,0 +1,40 @@
+.section
+    &-title
+        font-size: 27px
+        font-weight: 700
+        text-transform: uppercase
+        text-align: center
+        margin-bottom: 29px
+        &::after
+            content: ''
+            display: block 
+            margin-top: 12px
+            height: 6px
+            background: url(../img/line.png) center no-repeat
+            
+.button
+    font-size: 14px
+    background-color: $active-color
+    border: 1px solid transparent
+    color: #fff
+    padding: 13px 22px
+    border-radius: 5px
+    &:hover
+        background-color: lighten($active-color,10)
+    cursor: pointer
+    outline: 0
+    &__big
+        padding: 19px
+    &-o
+        background-color: transparent
+        color: #313131
+        border: 1px solid rgba(#373737,0.3)
+        padding-right: 12px
+        &:hover
+            background-color: lighten(#373737,90)
+            cursor: pointer
+            outline: 0
+
+img 
+    vertical-align: middle
+   

@@ -1,0 +1,61 @@
+@media (max-width: 576px)
+    .hide-mobile
+        display: none
+    .header
+        &-logo 
+            background: $active-color url(../img/header-logo_mobile.png) center no-repeat
+            width: 35px
+            height: 35px
+            border-radius: 4px
+        &-contacts
+            display: flex
+            &__button
+                padding: 7px
+            
+            &__phone
+                font-size: 14px
+                font-weight: 400    
+            
+    
+    .main
+        text-align: center
+        padding-top: 50px
+        padding-bottom: 40px
+        &-text 
+            
+            &__title
+                font-size: 22px
+                font-weight: 700
+                color: $active-color
+            &__subtitle
+                font-size: 18px
+                font-weight: 400
+            &__form
+                background-color: transparent
+        .form-title
+            padding-right: 0
+            font-size: 15px
+            font-weight: 300
+            &__important
+                font-weight: 700
+                text-transform: uppercase
+            &-input
+                padding: 0
+                max-width: 290px
+    .button__big
+        padding: 16px 29px
+        font-size: 15px
+        font-weight: 500
+    .numbers
+        &-block
+            display: block
+            width: 100%
+            padding-bottom: 24px
+    .features-blocks
+        flex-direction: column
+    .button-o
+        margin-left: 10px
+    
+    .products-block__title
+        padding-bottom: 17px
+        padding-top: 10px

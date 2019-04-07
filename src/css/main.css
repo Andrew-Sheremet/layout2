@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  background-color: #ffffff;
+}
+
+.header {
+  background-color: #fff;
+  padding: 15px 0px;
+}
+
+.header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-contacts__phone {
+  font-size: 22px;
+  margin-right: 13px;
+}
+
+.button {
+  font-size: 14px;
+  background-color: #ff9d00;
+  border: none;
+  color: #fff;
+  padding: 13px 22px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ffb133;
+}
+
+img {
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+}
